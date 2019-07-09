@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie Search</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html" style="letter-spacing: 4px">MOVIE APP</a>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h3 class="text-center">SEARCH FOR ANY MOVIE</h3>
+      <form id="searchForm">
+        <input type="text" class="form-control" id="searchText" placeholder="Search Movie..">
+        <div class="boton-buscar" id="searchForm">
+          <button class="btn btn-danger" id="searchText">BUSCAR</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="movies" class="row">
+    </div>
+    <div class="container">
+      <div id="movies2" class="row">
+      </div>
+
+      <button type="button" class="btn btn-success" id="showMore">VER MAS</button>
+    </div>
+
+    <div class="container">
+      <div id="movies3" class="row">
+      </div>
+
+      <button type="button" class="btn btn-success" id="showMore2">VER MAS</button>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

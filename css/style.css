@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+*{
+  font-family: 'Titillium Web', sans-serif;
+}
+body{
+  background-image: url("https://cdn.wallpapersafari.com/6/40/r4hBE2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+.container .jumbotron{
+  margin-top: 50px;
+  background: #343a40;
+  color:white;
+}
+.container .jumbotron h3{
+  padding-bottom: 30px;
+  letter-spacing: 4px;
+}
+.boton-buscar{
+  display: flex;
+  margin-top: 30px;
+}
+.boton-buscar button{
+  margin: auto;
+  letter-spacing: 4px;
+}
+#movies img, #movie img , #movies2 img, #movies3 img{
+  width: 190px;
+  margin: auto;
+  padding: 10px;
+}
+h2{
+  color:white;
+}
+.card{
+  color:white;
+}
+.card-title{
+  padding: 10px;
+  text-align: center;
+}
+.card a {
+  margin:20px;
+}
+.details{
+  color:white;
+  list-style: none;
+  margin-top: 20px;
+  background: black !important;
+}
+.details li{
+  padding: 10px;
+}
+
+.tarjeta img{
+  width: 300px !important;
+  padding-bottom: 40px !important
+}
+.principal{
+  background: black;
+  padding: 30px;
+  display: none;
+}
+.botones{
+  margin: auto;
+}
+#showMore, #showMore2{
+  display: none;
+  margin: auto;
+  margin-bottom: 20px;
+  letter-spacing: 4px;
+}
+
+@media(min-weight:960px){
+  #movies .col-md-3 .well{
+    height: auto;
+    }
+    
+    #movies .col-md-3 img{
+      height: 140px;
+      border-radius: 5px;
+    }
+}
